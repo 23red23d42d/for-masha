@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  header p {
+    font-size: 1.5em;
+  }
+  
+  .hero {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .typing {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #dc00f0;
+    animation: typing 4s steps(20, end);
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 18ch;
+    }
+  }
+  
+  .gallery {
+    padding: 20px;
+  }
+  
+  .gallery .images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .message {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  footer {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 0.9em;
+  }
+  
